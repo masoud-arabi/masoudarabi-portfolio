@@ -17,9 +17,12 @@ require("channels")
 
 
   import { loadDynamicBannerText } from '../components/index';
+  import AOS from 'aos';
+  import 'aos/dist/aos.css'; 
 
 document.addEventListener('turbolinks:load', () => {
   // Call your JS functions here
   // [...]
   loadDynamicBannerText();
+  AOS.init();
 });
