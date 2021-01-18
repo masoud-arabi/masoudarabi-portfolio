@@ -1,12 +1,14 @@
 .contact__container {
-  height: 70vh;
-  width: 50vw;
+  height: 50%;
+  width: 40%;
   margin-top: 3rem;
   box-shadow: 0px 0px 2px 2px rgba(white, 0.1);
+  background-color: $color-primary-light;
+  border-radius: 20px;
 
   @include respond(phone) {
-    height: 55vh;
-    width: 70vw;
+    height: 45%;
+    width: 50%;
   }
   @include respond(medium-phone) {
     font-size: 38%;
@@ -14,17 +16,19 @@
 }
 
 .heading_contact {
-  font-size: 4.8rem;
+  font-size: 2rem;
   color: $color-primary;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.2rem;
+  margin-bottom: 20px;
 }
 
 .details {
   li {
-    padding: 1rem;
-    font-size: 2.4rem;
+    padding-left: 10%;
+    font-size: 20px;
+    list-style: none;
   }
 }
 .email {
@@ -34,7 +38,7 @@
 
 .social {
   h3 {
-    font-size: 3.2rem;
+    font-size: 2rem;
     color: $color-primary;
     text-transform: uppercase;
     font-weight: 400;
@@ -46,11 +50,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    padding-left: 0;
   }
 
   &__icon {
     font-size: 3.2rem;
-    padding: 1.5rem;
+    padding: 1.2rem;
   }
 
   &__link {

@@ -62,8 +62,9 @@
 }
 
 .tech-border {
-  border-radius: 30px;
-  background-color: #bfa4a4;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: $color-primary-light;
   width: 60%;
   height: 150px;
   margin-bottom: 30px;
@@ -96,4 +97,14 @@
 }
 .u-center-text p {
   margin-top: 200px;
+}
+.technology-pure {
+  background-color: $color-black;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.project-pure {
+  background-color: $color-black;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
