@@ -7,5 +7,4 @@ const loadDynamicBannerText = () => {
     loop: true
   });
 }
-
 export { loadDynamicBannerText };
