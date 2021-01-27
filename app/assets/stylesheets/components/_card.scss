@@ -14,11 +14,13 @@
     color: grey;
   }
 }
+.card-product .img-coco {
+}
 
 .card-product img {
   height: 100%;
   width: 300px;
-  object-fit: cover;
+  // object-fit: cover;
 }
 
 .card-product h2 {
