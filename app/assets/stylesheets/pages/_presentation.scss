@@ -108,3 +108,11 @@
   padding-bottom: 50px;
   padding-top: 50px;
 }
+#title {
+  text-decoration: none;
+  color: $color-primary;
+  &:hover {
+    font-size: 25px;
+    color: $color-primary;
+  }
+}
